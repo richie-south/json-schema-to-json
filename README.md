@@ -1,4 +1,4 @@
-# json-schema-to-json
+# json-schema-to-json-object
 
 Work in progress, basic support
 
@@ -9,7 +9,7 @@ https://json-schema.org/specification
 ### Example
 
 ```typescript
-import {getJsonStructure} from 'json-schema-to-json'
+import {getJsonStructure} from 'json-schema-to-json-object'
 
 const result = getJsonStructure(schema)
 ```
