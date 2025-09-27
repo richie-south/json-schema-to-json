@@ -1,0 +1,36 @@
+{
+  "name": "json-schema-to-json",
+  "version": "0.0.1",
+  "description": "A json schema to json walker",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc & jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richie-south/json-schema-to-json.git"
+  },
+  "keywords": [
+    "json schema",
+    "json"
+  ],
+  "author": "Richard söderman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richie-south/json-schema-to-json/issues"
+  },
+  "homepage": "https://github.com/richie-south/json-schema-to-json#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.1.3",
+    "ts-jest": "^29.4.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "json-schema-library": "^10.2.1"
+  }
+}
