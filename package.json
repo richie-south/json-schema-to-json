@@ -1,6 +1,6 @@
 {
   "name": "json-schema-to-json-object",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A json schema to json walker",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
